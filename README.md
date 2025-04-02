@@ -1,12 +1,11 @@
 # jdbc
 ## jdbc connection code
+
 package jdbc_Example;
-
 import java.sql.*;
-
 public class jdbcconnection 
 {
-    public static void main(String[] args) 
+public static void main(String[] args) 
     {
         // Database connection details
         String url = "jdbc:mysql://localhost:3306/Company"; // Replace with your DB name
@@ -63,10 +62,9 @@ public class jdbcconnection
     }
 }
 
-### update code in jdbc
+## update code in jdbc
+
 package jdbc_Example;
-
-
 import java.sql.*;
 
 public class updateClass 
